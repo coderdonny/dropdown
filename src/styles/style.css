@@ -169,3 +169,36 @@ h1:hover + .dropdown-menu {
 	cursor: pointer;
 	display: block;
 }
+
+/* javascript dropdown */
+
+.dropdown-menu-js {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 500px;
+	background-color: white;
+	color: black;
+}
+
+.dropdown-menu-js li {
+	padding: 8px;
+	width: 100%;
+	text-align: center;
+	background-color: white;
+}
+
+.dropdown-menu-js li:hover {
+	background-color: rgb(255, 233, 233);
+	cursor: pointer;
+	color: red;
+}
+
+h1 {
+	color: black;
+	padding: 1rem;
+	cursor: pointer;
+	margin-top: 2rem;
+	font-weight: 800;
+}
